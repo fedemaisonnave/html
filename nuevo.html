@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford Ranger Limited+ V6</title>
+    <style>
+        @font-face {
+            font-family: 'FordFont';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://www.ford.com/shared/fonts/f1/regular.woff2) format("woff2"),
+                 url(https://www.ford.com/shared/fonts/f1/regular.woff) format("woff");
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'FordFont', sans-serif;
+            background-color: #F0F0F0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px 0 0 10px;
+            overflow: hidden;
+            background-color: #FFFFFF;
+            color: #000000;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            padding: 20px;
+            background-color: #00095B;
+            color: #FFFFFF;
+            text-align: left;
+        }
+        .card-header .brand {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-header .model {
+            font-size: 24px;
+            color: #066FEF;
+            margin-top: 5px;
+        }
+        .vehicle-image {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 20px;
+            text-align: left;
+        }
+        .characteristics {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .characteristic-card {
+            background-color: #F0F0F0;
+            padding: 10px;
+            border-radius: 8px 0 0 8px;
+        }
+        .characteristic-card .value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #00095B;
+        }
+        .characteristic-card .label {
+            font-size: 14px;
+            color: #00142E;
+        }
+        .additional-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .info-card {
+            background-color: #066FEF;
+            color: #FFFFFF;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .vehicle-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .btn {
+            flex: 1 1 calc(50% - 10px);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            background-color: #066FEF;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #00095B;
+        }
+        @media (max-width: 768px) {
+            .card {
+                max-width: 100%;
+                padding: 10px;
+            }
+            .card-header .brand {
+                font-size: 18px;
+            }
+            .card-header .model {
+                font-size: 20px;
+            }
+            .btn {
+                flex: 1 1 100%;
+            }
+        }
+        .pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: radial-gradient(circle at 10% 10%, #066FEF 2%, transparent 0%);
+            background-size: 20px 20px;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model">Ranger Limited+ V6</div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-limited-plus.jpg" alt="Imagen de Ranger Limited+ V6" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                <div class="characteristic-card">
+                    <span class="value">Motor</span>
+                    <span class="label">Motor <strong>3.0L V6 Turbo Diesel</strong>, <strong>250 CV</strong>, <strong>600 Nm</strong> torque.</span>
+                </div>
+                <div class="characteristic-card">
+                    <span class="value">Tecnología</span>
+                    <span class="label">Pantalla de <strong>12"</strong>, panel digital de <strong>12.4"</strong>.</span>
+                </div>
+                <div class="characteristic-card">
+                    <span class="value">Seguridad</span>
+                    <span class="label">Velocidad crucero <strong>adaptativo</strong>, función <strong>Stop & Go</strong>, <strong>centrado</strong> de carril.</span>
+                </div>
+                <div class="characteristic-card">
+                    <span class="value">Tracción</span>
+                    <span class="label">Tracción <strong>4WD</strong>, modos configurables.</span>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automática</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/limited-plus-4wd/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.ford.com.ar/posventa/accesorios/" class="btn" target="_blank">Ver Accesorios</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-limited+-3.0l-v6-4wd-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

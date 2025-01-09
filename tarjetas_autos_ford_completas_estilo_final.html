@@ -1,0 +1,2124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Autos Ford Actualizadas</title>
+    <style>
+        @font-face {
+            font-family: 'FordFont';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://www.ford.com/shared/fonts/f1/regular.woff2) format("woff2"),
+                 url(https://www.ford.com/shared/fonts/f1/regular.woff) format("woff");
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'FordFont', sans-serif;
+            background-color: #F0F0F0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px 0 0 10px;
+            overflow: hidden;
+            background-color: #FFFFFF;
+            color: #000000;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            padding: 20px;
+            background-color: #00095B;
+            color: #FFFFFF;
+            text-align: left;
+        }
+        .card-header .brand {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-header .model {
+            font-size: 24px;
+            color: #066FEF;
+            margin-top: 5px;
+        }
+        .vehicle-image {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 20px;
+            text-align: left;
+        }
+        .characteristics {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .characteristic-card {
+            background-color: #F0F0F0;
+            padding: 10px;
+            border-radius: 8px 0 0 8px;
+        }
+        .characteristic-card .value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #00095B;
+        }
+        .characteristic-card .label {
+            font-size: 14px;
+            color: #00142E;
+        }
+        .additional-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .info-card {
+            background-color: #066FEF;
+            color: #FFFFFF;
+            padding: 10px;
+            border-radius: 8px 0 0 8px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .vehicle-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .btn {
+            flex: 1 1 calc(50% - 10px);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            background-color: #066FEF;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #00095B;
+        }
+        @media (max-width: 768px) {
+            .card {
+                max-width: 100%;
+                padding: 10px;
+            }
+            .card-header .brand {
+                font-size: 18px;
+            }
+            .card-header .model {
+                font-size: 20px;
+            }
+            .btn {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger Limited+ V6</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-limited-plus.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger Limited+ V6</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 3.0L V6 Turbo diesel con <strong>250 CV</strong> <strong>600 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 12" y panel de instrumentos de 12.4" LED</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero <strong>adaptativo</strong> con <strong>Stop & Go</strong> y <strong>centrado</strong> de carril</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/limited-plus-4wd/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-limited+-3.0l-v6-4wd-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger Limited</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-limited.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger Limited</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L <strong>Bi-Turbo</strong> diesel con <strong>210 CV</strong> <strong>500 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sistema de gestión de terrenos</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sistema de mantenimiento de carril</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X4</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/limited-4x4/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-limited-2.0l-bit-4x4-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XLT 4x4</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xlt-4x4.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XLT 4x4</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L <strong>Bi-Turbo</strong> diesel con <strong>210 CV</strong> <strong>500 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asiento de <strong>cuero</strong> ecológico</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento traseros y delanteros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X4</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xlt-4x4/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xlt-2.0l-bit-4x4-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XLS V6</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xls-4x4.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XLS V6</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 3.0L V6 Turbo diesel con <strong>250 CV</strong> <strong>600 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Freno a disco en las 4 ruedas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Caja automática de 10 velocidades y sistema de gestión de terrenos</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xls-4wd/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xls-3.0l-v6-4wd-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XLT 4x2</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xlt-4x2.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XLT 4x2</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L <strong>Bi-Turbo</strong> diesel con <strong>210 CV</strong> <strong>500 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asiento de <strong>cuero</strong> ecológico</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento traseros y delanteros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xlt-4x2/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xlt-2.0l-bit-4x2-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger Black 4x4 Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-cotizacion-ranger-black.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger Black 4x4 Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L Turbo diesel con <strong>170 CV</strong> <strong>405 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Llantas de aleación 18"</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Cámara y sensores traseros de estacionamiento</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X4</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/black/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-black-2.0l-4x4-manual" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XLS 4x2 Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xls-4x2.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XLS 4x2 Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L Turbo diesel con <strong>170 CV</strong> <strong>405 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Llantas de aleación de 17"</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Cámara y sensores traseros de estacionamiento</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xls-4x2/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xls-2.0l-4x2-manual" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XL 4x4 Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xl-4x4.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XL 4x4 Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L Turbo diesel con <strong>170 CV</strong> <strong>405 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">7 Airbags y Control Crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 10" compatible con conexión inalámbrica con Android Auto y Apple CarPlay</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X4</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xl-4x4/?intcmp=bb-far-vhp-ford%20ranger-far-model-ford%20nueva%20ranger-return" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xl-2.0l-4x4-manual" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger XL 4x2 Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/cotizador/ranger/far-ranger-cotizador-billboard-xl-4x2.jpg/jcr:content/renditions/small.jpeg" alt="Imagen de <strong>Ranger XL 4x2 Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 2.0L Turbo diesel con <strong>170 CV</strong> <strong>405 Nm</strong> de torque</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">7 Airbags y Control Crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 10" compatible con conexión inalámbrica con Android Auto y Apple CarPlay</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/nueva-ranger/models/xl-4x2/?intcmp=bb-far-vhp-ford%20ranger-far-model-ford%20nueva%20ranger-return" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/Nueva-ranger/2024/pdf/far-ficha-tecnica-nueva-ranger-agosto.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2025-ranger-xl-2.0l-4x2-manual" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Territory SEL</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/territory/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg" alt="Imagen de <strong>Territory SEL</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 1.8L EcoBoost con <strong>185 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sistema multimedia</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">pantalla táctil de 12"</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Monitoreo de punto ciego con alerta de tráfico cruzado</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/territory/modelos/sel/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/territory/landing/pdf/far-ficha-tecnica-territory-2024.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2025-territory-sel-1.8l-ecoboost" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Territory Titanium</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/territory/jcr:content/par/splitter_1171099059/splitter0/image/image.imgs.620.high.jpg" alt="Imagen de <strong>Territory Titanium</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor 1.8L EcoBoost con <strong>185 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tablero con pantalla digital de 12"</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Techo solar panorámico</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asientos delanteros calefaccionados y refrigerados</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tapizado de <strong>cuero</strong></span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/territory/modelos/titanium/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/territory/landing/pdf/far-ficha-tecnica-territory-2024.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2025-territory-titanium-1.8l-ecoboost" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Bronco Sport Big Bend 1.5L</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/bronco-sport/jcr:content/par/splitter/splitter0/billboard/imageComponent/image.imgs.620.high.jpg" alt="Imagen de <strong>Bronco Sport Big Bend 1.5L</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor EcoBoost 1.5 Turbo de <strong>175 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión Automática de 8 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tracción <strong>4WD</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">SYNC III con <strong>pantalla multitáctil</strong> de 8”</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Bandeja de carga de baúl configurable</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/bronco-sport/models/big-bend/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/bronco-sport/prelaunch/pdf/far-bronco-sport-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2024-bronco-sport-big-bend-1.5-ecoboost#" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Bronco Sport WildTrak 2.0L </strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/bronco-sport/jcr:content/par/splitter_1171099059/splitter0/billboard/imageComponent/image.imgs.620.high.jpg" alt="Imagen de <strong>Bronco Sport WildTrak 2.0L </strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor EcoBoost 2.0 Turbo de <strong>253 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión Automática de 8 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tracción <strong>4WD</strong> con control vectorial de torque y bloqueo de diferencial trasero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tapizado de <strong>cuero</strong> <strong>bitono</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero <strong>adaptativo</strong> con <strong>stop & go</strong> y <strong>centrado</strong> de carril</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/bronco-sport/models/wildtrak/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/bronco-sport/prelaunch/pdf/far-bronco-sport-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2024-bronco-sport-wildtrak-2.0-ecoboost#" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Kuga Hibrida Platinum</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/kuga-hibrida/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1693263087416.jpg" alt="Imagen de <strong>Kuga Hibrida Platinum</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Híbrido con motor naftero de 2.5L ciclo Atkinson de <strong>191 CV</strong> de potencia y <strong>210 Nm</strong> de torque con motor eléctrico auto-recargable</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tracción AWD Inteligente</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Iluminación Full Led</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asistente Ford Co-Pilot 360</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla Multitáctil</strong> SYNC 4 de 13.2”</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/kuga-hibrida/mas-informacion/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/kuga-hibrido/2023/pdf/far-ficha-tecnica-kuga-hev.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2024-kuga-platinum-2.5l-hibrido" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Bronco Wildtrak 2.7L</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/bronco/jcr:content/par/splitter_1171099059/splitter0/billboard_627863095/imageComponent/image.imgs.620.high.jpg" alt="Imagen de <strong>Bronco Wildtrak 2.7L</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Ecoboost 2.7L V6 <strong>Bi-Turbo</strong> con <strong>334 CV</strong> y torque <strong>562 Nm</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Diseño icónico y equipado para las aventuras</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Suspensión HOSS FOX 3.0</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Neumáticos de 35” y 4X4 avanzado incluidos en el Paquete Sasquatch</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Eje delantero y trasero con bloqueo electrónico</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Modos de conducción G.O.A.T.</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/bronco-wildtrak/mas-informacion/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/nueva-bronco/pdf/far-nueva-bronco-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/suvs/2024-nueva-bronco-wildtrak-2.7l-ecoboost-v6-bi-turbo" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Maverick XLT</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/maverick/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1682435124783.jpg" alt="Imagen de <strong>Maverick XLT</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor EcoBoost 2.0 Turbo de <strong>253 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión Automática de 8 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Diseño innovador y funcional</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Caja de carga organizada</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Ford Co-Pilot 360</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/maverick/modelos/xlt/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/maverick/landing/pdf/far-ficha-tecnica-maverick.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-maverick-xlt-2.0l-ecoboost" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Maverick Lariat FX4</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/maverick/jcr:content/par/splitter_1171099059/splitter0/image/image.imgs.620.high.jpg/1676496090135.jpg" alt="Imagen de <strong>Maverick Lariat FX4</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor EcoBoost 2.0 Turbo de <strong>253 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión Automática de 8 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Tracción AWD</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Incluye paquete FX4</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Apertura de puerta y arranque de motor sin llave</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/maverick/modelos/lariat/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/maverick/landing/pdf/far-ficha-tecnica-maverick.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-maverick-lariat-fx4-2.0l-ecoboost" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Maverick Lariat Hibrida</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/maverick/jcr:content/par/splitter_673785995/splitter0/image/image.imgs.620.high.jpg" alt="Imagen de <strong>Maverick Lariat Hibrida</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Híbrido con motor naftero de 2.5L ciclo Atkinson de <strong>191 CV</strong> de potencia y <strong>210 Nm</strong> de torque con motor eléctrico auto-recargable</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Pantalla de 8” junto a un panel de instrumentos de 6.5”</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asistente Ford Co-Pilot 360</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/crossovers-suvs-4x4/maverick/modelos/lariat-hibrida/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/maverick/landing/pdf/far-ficha-tecnica-maverick.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-maverick-lariat-2.5l-hibrida" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Ranger Raptor 3.0L V6 Nafta</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/ranger-raptor/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1681161549062.jpg" alt="Imagen de <strong>Ranger Raptor 3.0L V6 Nafta</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Naftero EcoBoost 3.0L V6</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla Multitáctil</strong> de 12 con SYNC 4</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Amortiguadores FOX Racing SHOX</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="#" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/raptor/2023/brochure/far-ficha-tecnica-ranger-raptor.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2023-ranger-raptor-3.0l-v6-nafta-awd-automatica/" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Nueva F150 Lariat Hibrida</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/f-150-lariat/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1729261346591.jpg" alt="Imagen de <strong>Nueva F150 Lariat Hibrida</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor PowerBoost 3.5L V6 Híbrido</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero <strong>adaptativo</strong> con <strong>Stop & Go</strong> y <strong>centrado</strong> de carril</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 12" y panel de instrumentos de 12" LED</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="#" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/f-150-lariat/2024/pdf/far-f150-lariat-hev-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-f-150-lariat-3.5l-v6-hibrida-4x4-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Nueva F150 Tremor V8</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/f-150-tremor/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1729257658834.jpg" alt="Imagen de <strong>Nueva F150 Tremor V8</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Coyote 5.0 V8 <strong>406 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Suspensión especial Tremor</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 12" y panel de instrumentos de 12" LED</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero <strong>adaptativo</strong> con <strong>Stop & Go</strong> y <strong>centrado</strong> de carril</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="#" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/f-150-tremor/pdf/far-f150-tremor-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-f-150-tremor-5.0l-v8-4x4-automatica" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Nueva F150 Raptor 3.5 V6</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/f-150-raptor/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1676498121903.jpg" alt="Imagen de <strong>Nueva F150 Raptor 3.5 V6</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor EcoBoost 3.5L V6 <strong>456 CV</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">10 velocidades Automática</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Amortiguadores FOX Racing Shox</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sistema de Gestión de Terrenos</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label"><strong>Pantalla multitáctil</strong> de 12"</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4WD</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Nafta</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="#" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/f-150-raptor/2024/pdf/far-ficha-tecnica-f150-raptor.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.guia360ford.com.ar/pick-ups/2024-f-150-raptor-3.5l-ecoboost-v6-ho" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Mediana Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-van/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1676500112429.jpg" alt="Imagen de <strong>Transit Mediana Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Puma 2.2L TDCi. <strong>125 CV</strong> <strong>350 NM</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Capacidad de carga 9.5 m3</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Faros antiniebla</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento delanteros y traseros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-van/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Mediana Techo Elevado Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-van/jcr:content/par/splitter_1256543320/splitter0/image/image.imgs.620.high.jpg/1676500190428.jpg" alt="Imagen de <strong>Transit Mediana Techo Elevado Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Puma 2.2L TDCi. <strong>125 CV</strong> <strong>350 NM</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Capacidad de carga 10.5 m3</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Faros antiniebla</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento delanteros y traseros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-van/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Larga Techo Elevado Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-van/jcr:content/par/splitter_2085197155/splitter0/image/image.imgs.620.high.jpg/1676500374797.jpg" alt="Imagen de <strong>Transit Larga Techo Elevado Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Puma 2.2L TDCi. <strong>125 CV</strong> <strong>350 NM</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Capacidad de carga 12.4 m3</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Faros antiniebla</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento delanteros y traseros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-van/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-van-mediana/2020/pdf/far-transit-van-ficha-tecnica.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Larga Techo Elevado Automatica</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-van/jcr:content/par/splitter_724163752/splitter0/image/image.imgs.620.high.jpg/1681771096564.jpg" alt="Imagen de <strong>Transit Larga Techo Elevado Automatica</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Panther 2.0</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión automática de 10 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Pantalla táctil de 8"</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Cámara de estacionamiento trasera</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Start & Stop</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-van/" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-van-at.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-van-at.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Chasis</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-chasis/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1676500839369.jpg" alt="Imagen de <strong>Transit Chasis</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Panther 2.0L de <strong>165 CV</strong>/<strong>390 Nm</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Capacidad máxima de 2.601 Kg</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Asistente de Partida en pendiente</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Doble circuito eléctrico con baterías independientes</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-chasis/?intcmp=tds-chasis" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-chasis/transit-pdf/far-transit-chasis-ficha-tecnica.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/transit-chasis/transit-pdf/far-transit-chasis-ficha-tecnica.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Minibus Manual</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-minibus/jcr:content/par/splitter_429329232/splitter0/image/image.imgs.620.high.jpg/1676500684057.jpg" alt="Imagen de <strong>Transit Minibus Manual</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Puma 2.2L TDCi. <strong>135 CV</strong> <strong>350 NM</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Capacidad para 17 pasajeros más el conductor</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Estribo eléctrico para el ingreso</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Sensores de estacionamiento delanteros y traseros</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Manual</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-minibus/?intcmp=tds-minibus" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-minibus-mt.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-minibus-mt.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="pattern"></div>
+        <div class="card-header">
+            <div class="brand">Ford</div>
+            <div class="model"><strong>Transit Minibus Automatico</strong></div>
+        </div>
+        <img src="https://www.ford.com.ar/content/ford/ar/es_ar/home/cotizacion/transit-minibus/jcr:content/par/splitter/splitter0/image/image.imgs.620.high.jpg/1681771291750.jpg" alt="Imagen de <strong>Transit Minibus Automatico</strong>" class="vehicle-image">
+        
+        <div class="card-content">
+            <div class="characteristics">
+                
+        <div class="characteristic-card">
+            <span class="label">Motor Panther 2.0</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Transmisión automática de 10 marchas</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Control de velocidad crucero <strong>adaptativo</strong></span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Detector de fatiga</span>
+        </div>
+        
+        <div class="characteristic-card">
+            <span class="label">Dirección eléctrica</span>
+        </div>
+        
+            </div>
+            <div class="additional-info">
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">2025</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Año</span>
+                    </div>
+                    <img src="https://i.ibb.co/3CBGyMf/calendar.png" alt="Año" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Automatica</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Transmisión</span>
+                    </div>
+                    <img src="https://i.ibb.co/rtGBR1J/gear.png" alt="Transmisión" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">4X2</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Tracción</span>
+                    </div>
+                    <img src="https://i.ibb.co/YLZyCb3/all-season-tires.png" alt="Tracción" style="width: 20px; height: 20px;">
+                </div>
+                <div class="info-card" style="border-radius: 8px 0 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                    <div style="text-align: left;">
+                        <strong style="color: #00095B; font-size: 18px;">Diesel</strong><br>
+                        <span style="color: #FFFFFF; font-size: 12px;">Combustible</span>
+                    </div>
+                    <img src="https://i.ibb.co/cCFbnpw/fuel.png" alt="Combustible" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+            <div class="vehicle-buttons">
+                <a href="https://www.ford.com.ar/utilitarios/nueva-transit-minibus/?intcmp=tds-minibus" class="btn" target="_blank">Conoce Más</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-minibus-at.pdf" class="btn" target="_blank">Ver Ficha Técnica</a>
+                <a href="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/utilitarios/pdf/far-ficha-tecnica-transit-minibus-at.pdf" class="btn" target="_blank">Ver Guía 360º</a>
+                <a href="https://www.ford.com.ar/posventa/fordpass/?intcmp=hdr-fordpass.html" class="btn" target="_blank">Ver Ford Pass</a>
+                <a href="https://www.tiendaford.ar/accesorios" class="btn" target="_blank">Ver Accesorios</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
